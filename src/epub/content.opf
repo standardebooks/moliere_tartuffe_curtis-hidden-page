@@ -30,54 +30,70 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Tartuffe</dc:title>
 		<meta property="file-as" refines="#title">Tartuffe</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">The Hypocrite</dc:title>
+		<meta property="file-as" refines="#subtitle">Hypocrite, The</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Tartuffe Or The Hypocrite</dc:title>
+		<meta property="file-as" refines="#fulltitle">Tartuffe Or The Hypocrite</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Comedies</dc:subject>
 		<dc:subject id="subject-2">French drama -- 17th century -- Translations into English</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh99005572</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Comedy</meta>
+		<meta property="se:subject">Drama</meta>
+		<dc:description id="description">A father announces his daughter will marry Tartuffe, a sanctimonious fraud and hypocrite.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The first three acts of &lt;a href="https://standardebooks.org/ebooks/moliere"&gt;Molière&lt;/a&gt;’s &lt;i&gt;Tartuffe&lt;/i&gt; were first acted for Louis XIV in 1664 but the play was almost immediately suppressed—not because the King disliked it, but because the church resented the insinuation that the pious were frauds. After several different versions were written and performed privately, &lt;i&gt;Tartuffe&lt;/i&gt; was eventually published in its final 5-act form in 1669.&lt;/p&gt;
+			&lt;p&gt;A comic tale of man taken in by a sanctimonious scoundrel, the characters of Tartuffe, Elmire and Orgon are considered among some of the great classical theatre roles. As the family strives to convince the patriarch that Tartuffe is a religious fraud, the play ultimately focuses on skewering not the hypocrite, but his victims and the hypocrisy of fervent religious belief unchecked by facts or reason—a defense Molière himself used to overcome the churches proscriptions. In the end the impact of this play has been so strong that both the French and English now use the word “Tartuffe” to refer to a religious hypocrite who feigns virtue.&lt;/p&gt;
+			&lt;p&gt;In its original French, the play is written in twelve-syllable lines of rhyming couplets. Curtis Hidden Page’s translation invokes a popular compromise and renders it into the familiar blank verse (iambic pentameter) without rhymed endings that was popularized by Shakespeare. It is considered seminal for modern translators.&lt;/p&gt;
 		</meta>
-		<dc:language>en-GB</dc:language>
+		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2027</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://catalog.hathitrust.org/Record/100325468</dc:source>
+		<meta property="se:production-notes">The Introduction was added from the 1912 Putnam edition.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tartuffe</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/moliere_tartuffe_curtis-hidden-page</meta>
 		<dc:creator id="author">Molière</dc:creator>
-		<meta property="file-as" refines="#author">CONTRIBUTOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Molière</meta>
+		<meta property="se:name.person.full-name" refines="#author">Jean-Baptiste Poquelin</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Moli%C3%A8re</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79043851</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Curtis Hidden Page</dc:contributor>
 		<meta property="file-as" refines="#translator">Page, Curtis Hidden</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Curtis_Hidden_Page</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n87906304</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="se:role" refines="#translator" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#translator" scheme="marc:relators">aui</meta>
+		<dc:contributor id="artist">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#artist">Anonymous</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Dagny</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Dagny</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">John Vickers</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Vickers, John</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Proofreaders, Distributed</meta>
+		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">B. Timothy Keith</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Keith, B. Timothy</meta>
+		<meta property="se:url.homepage" refines="#producer-1">http://astart.ca</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
