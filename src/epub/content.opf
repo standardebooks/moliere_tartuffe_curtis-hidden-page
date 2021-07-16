@@ -45,6 +45,8 @@
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="se:subject">Comedy</meta>
 		<meta property="se:subject">Drama</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A father announces his daughter will marry Tartuffe, a sanctimonious fraud and hypocrite.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The first three acts of &lt;a href="https://standardebooks.org/ebooks/moliere"&gt;Molière&lt;/a&gt;’s &lt;i&gt;Tartuffe&lt;/i&gt; were first performed for Louis XIV in 1664, but the play was almost immediately suppressed—not because the King disliked it, but because the church resented the insinuation that the pious were frauds. After several different versions were written and performed privately, &lt;i&gt;Tartuffe&lt;/i&gt; was eventually published in its final five-act form in 1669.&lt;/p&gt;
