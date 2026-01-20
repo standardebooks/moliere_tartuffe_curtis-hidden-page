@@ -56,7 +56,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/2027</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100325468</dc:source>
 		<meta property="se:production-notes">The Introduction was added from the 1912 Putnam edition.</meta>
-		<meta property="se:word-count">19860</meta>
+		<meta property="se:word-count">19291</meta>
 		<meta property="se:reading-ease.flesch">72.66</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tartuffe</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/moliere_tartuffe_curtis-hidden-page</meta>
